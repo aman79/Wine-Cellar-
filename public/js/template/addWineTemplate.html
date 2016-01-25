@@ -1,0 +1,33 @@
+<div id="paste2">
+
+<form role= "form">
+	<div class = "form-group">
+    <label for = "id">Id:</label>
+    <input id="wineId" name="idd" type="text" value="<%= wine.id %>" class = "form-control" disabled />
+</div>
+<div class = "form-group">
+    <label for= "name">Name:</label>
+    <input type="text" id="name" name="name" value="<%= wine.name %>" class = "form-control" required/>
+</div>
+<div class = "form-group">
+    <label for = "grapes">Grapes:</label>
+    <input type="text" id="grapes" name="grapes" value="<%= wine.grapes %>" class = "form-control"/>
+</div>
+<div class = "form-group">
+    <label for = "country">Country:</label>
+    <input type="text" id="country" name="country" value="<%= wine.country %>" class = "form-control"/>
+</div>
+<div class = "form-group">
+    <label for = "region">Region:</label>
+    <input type="text" id="region" name="region"  value="<%= wine.region %>" class = "form-control"/>
+</div>
+<div class = "form-group">
+    <label for = "year">Year:</label>
+    <input type="text" id="year" name="year"  value="<%= wine.year %>" class = "form-control"/>
+    </div>
+    </form>
+<div>
+    <button class="btn btn-default save">Save</button>
+    <button class="btn btn-default delete">Delete</button></div>
+</div>
+
